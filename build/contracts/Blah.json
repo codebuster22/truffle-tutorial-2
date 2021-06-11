@@ -1,0 +1,192 @@
+{
+  "contractName": "Blah",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "blahblahblah",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"blahblahblah\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/home/mihir/Desktop/blockchain-batch-2/truffle-tut/contracts/BlahBlah.sol\":\"Blah\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/mihir/Desktop/blockchain-batch-2/truffle-tut/contracts/BlahBlah.sol\":{\"keccak256\":\"0x0a4da7569c8779ab50b5c0b61199f93cf728e780f7598da4d3686cde32a26449\",\"urls\":[\"bzz-raw://2b3ed80b3442fef0aaa4bec66bc50e66d112175e4ceced691f877c7ffd9ad201\",\"dweb:/ipfs/QmbKjphvhQuJQtSqwq6VyhyWfWRHg4J1q1Pw8yBfqzWSEu\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b5060848061001e6000396000f3fe6080604052348015600f57600080fd5b506004361060285760003560e01c80639c04278414602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820c40e094d41d5c4b6410d08413cdac34423be9ce23dd4c8e91fa0dea98d979c0764736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b506004361060285760003560e01c80639c04278414602d575b600080fd5b60336049565b6040518082815260200191505060405180910390f35b6000548156fea265627a7a72315820c40e094d41d5c4b6410d08413cdac34423be9ce23dd4c8e91fa0dea98d979c0764736f6c63430005100032",
+  "sourceMap": "26:46:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:46:0;;;;;;;",
+  "deployedSourceMap": "26:46:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;26:46:0;;;;;;;;;;;;;;;;;;;45:24;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;;;;:::o",
+  "source": "pragma solidity ^0.5.16;\n\ncontract Blah{\n    uint public blahblahblah;\n}",
+  "sourcePath": "/home/mihir/Desktop/blockchain-batch-2/truffle-tut/contracts/BlahBlah.sol",
+  "ast": {
+    "absolutePath": "/home/mihir/Desktop/blockchain-batch-2/truffle-tut/contracts/BlahBlah.sol",
+    "exportedSymbols": {
+      "Blah": [
+        4
+      ]
+    },
+    "id": 5,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".16"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 4,
+        "linearizedBaseContracts": [
+          4
+        ],
+        "name": "Blah",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 3,
+            "name": "blahblahblah",
+            "nodeType": "VariableDeclaration",
+            "scope": 4,
+            "src": "45:24:0",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint256",
+              "typeString": "uint256"
+            },
+            "typeName": {
+              "id": 2,
+              "name": "uint",
+              "nodeType": "ElementaryTypeName",
+              "src": "45:4:0",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint256",
+                "typeString": "uint256"
+              }
+            },
+            "value": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 5,
+        "src": "26:46:0"
+      }
+    ],
+    "src": "0:72:0"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/mihir/Desktop/blockchain-batch-2/truffle-tut/contracts/BlahBlah.sol",
+      "exportedSymbols": {
+        "Blah": [
+          4
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "^",
+            "0.5",
+            ".16"
+          ]
+        },
+        "id": 1,
+        "name": "PragmaDirective",
+        "src": "0:24:0"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            4
+          ],
+          "name": "Blah",
+          "scope": 5
+        },
+        "children": [
+          {
+            "attributes": {
+              "constant": false,
+              "name": "blahblahblah",
+              "scope": 4,
+              "stateVariable": true,
+              "storageLocation": "default",
+              "type": "uint256",
+              "value": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "name": "uint",
+                  "type": "uint256"
+                },
+                "id": 2,
+                "name": "ElementaryTypeName",
+                "src": "45:4:0"
+              }
+            ],
+            "id": 3,
+            "name": "VariableDeclaration",
+            "src": "45:24:0"
+          }
+        ],
+        "id": 4,
+        "name": "ContractDefinition",
+        "src": "26:46:0"
+      }
+    ],
+    "id": 5,
+    "name": "SourceUnit",
+    "src": "0:72:0"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.16+commit.9c3226ce.Emscripten.clang"
+  },
+  "networks": {
+    "5777": {
+      "events": {},
+      "links": {},
+      "address": "0xca271AdcbDeCA5F1F898DAae31C0e408dC770CFA",
+      "transactionHash": "0x2a076841739cf8acb23722859db43c0b28cf459daca16d84a9156783d9f69b50"
+    }
+  },
+  "schemaVersion": "3.4.0",
+  "updatedAt": "2021-06-11T05:06:48.140Z",
+  "networkType": "ethereum",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
